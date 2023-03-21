@@ -17,6 +17,7 @@ My curated list of cool/useful crates for game development. Crates often have st
 | [strsim](https://crates.io/crates/strsim) | "string simularity" metrics, useful for fuzzy text searching (eg. in an editor when you want to search assets/sprites/etc.) |
 | [ulid](https://crates.io/crates/ulid) | i like this for guid generation, which uses the [ulid](https://github.com/ulid/spec) specification to generate 128-bit unique IDs that have nice string representations |
 | [wgpu](https://crates.io/crates/wgpu) | extremely powerful+sophisticated web-gpu cross platform rendering library, can output to metal/vulkan/dx/wasm, has its own shader language. the whole deal, very good |
+| [naga](https://github.com/gfx-rs/naga) | great companion to wgpu, a shader parser that can parse and translate shaders. i've found it useful for evaluating shaders to automate some of the graphics code, as well as validating shaders' compatibility for engines/targets |
 | [winit](https://crates.io/crates/winit) | the de-factor windowing library for rust, quite good compared to what i've used in any other language. feels very much like using SDL |
 | [thiserror](https://crates.io/crates/thiserror) | my favorite library for creating error structs/enums with nice display implementations (reduces lots of boilerplate and can generate from-impls as well, etc.) |
 | [bytemuck](https://crates.io/crates/bytemuck) | library with traits/methods for making your structs readable/writable as byte arrays, useful for uploading them into graphics APIs like wgpu or opengl |
