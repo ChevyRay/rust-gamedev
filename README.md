@@ -3,6 +3,7 @@ My curated list of cool/useful crates for game development. Crates often have st
 
 | Crate | Description |
 | ----- | ----------- |
+| [mint](https://crates.io/crates/mint) | interoperability layer between math types of different graphics APIs |
 | [crunch](https://crates.io/crates/crunch) | space-efficient rectangle packer |
 | [delaunator](https://crates.io/crates/delaunator) | triangulation of 2D points, good for mesh/collider gen, or any procedural stuff like that |
 | [arboard](https://crates.io/crates/arboard) | text/image clipboard support, useful for editors/etc. especially because of the image support |
