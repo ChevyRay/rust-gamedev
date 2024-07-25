@@ -38,3 +38,4 @@ My curated list of cool/useful crates for game development. Crates often have st
 | [compact_str](https://crates.io/crates/compact_str) | drop-in replacement for `String` that stores up to 24-byte strings on the stack |
 | [heck](https://crates.io/crates/heck) | provide conversions between different naming cases (eg. `snake_case` to `UpperCamelCase` or `SHOUTY_SNAKE_CASE`) |
 | [kdl](https://kdl.dev/) | a small, clean document language with xml-like semantics |
+| [pared](https://crates.io/crates/pared) | projected shared pointers (eg. get a "shared" reference to a field of a struct in an `Rc`) |
