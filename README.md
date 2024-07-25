@@ -29,5 +29,6 @@ My curated list of cool/useful crates for game development. Crates often have st
 | [png](https://crates.io/crates/png) | the `image` crate is very large, so for merely PNG support, using this directly makes for a faster compile and smaller dependency footprint |
 | [approx](https://crates.io/crates/approx) | floating point approximation, great for those times where pesky f32's are deciding to be never quite equal. should be used in place of direct equality checking as often possible |
 | [rand_xoshiro](https://crates.io/crates/rand_xoshiro) | very nice random number generators, i specifically like `SplitMix64` for being very simple, fast, and with a simple 64-bit state, but it has more sophisticated generators available as well |
-| [rusttype](https://crates.io/crates/rusttype) | great for parsing and rasterizing opentype fonts and generating glyph sets for rendering.
-| [palette](https://crates.io/crates/palette) | provides type-correct color types and conversions (RGB, HSV, LAB, etc.)
+| [rusttype](https://crates.io/crates/rusttype) | great for parsing and rasterizing opentype fonts and generating glyph sets for rendering. |
+| [palette](https://crates.io/crates/palette) | provides type-correct color types and conversions (RGB, HSV, LAB, etc.) |
+| [musli](https://crates.io/crates/musli) | fast, generic binary serialization in the vein of serde |
