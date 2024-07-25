@@ -8,6 +8,7 @@ My curated list of cool/useful crates for game development. Crates often have st
 | [delaunator](https://crates.io/crates/delaunator) | triangulation of 2D points, good for mesh/collider gen, or any procedural stuff like that |
 | [arboard](https://crates.io/crates/arboard) | text/image clipboard support, useful for editors/etc. especially because of the image support |
 | [bincode](https://crates.io/crates/bincode) | very fast + compact binary serializer, output is nearly same size as in-memory structs, great for simple inline serialization |
+| [musli](https://crates.io/crates/musli) | fast, generic binary serialization in the vein of serde (similar to bincode) |
 | [strum](https://crates.io/crates/strum) | add lots of reflection to enums (names, count, enumerate over their values, etc.), great to remove boilerplate and prepare enums for in-editor dropdown support |
 | [glam](https://crates.io/crates/glam) | my current favorite of the fast linear algebra (vectors, matrices, etc.) crates, designed for games/graphics, and has some SIMD-support |
 | [euc](https://crates.io/crates/euc) | simple and to-the-point software renderer, good for debugging or tooling, and also as studying material |
@@ -32,5 +33,4 @@ My curated list of cool/useful crates for game development. Crates often have st
 | [rand_xoshiro](https://crates.io/crates/rand_xoshiro) | very nice random number generators, i specifically like `SplitMix64` for being very simple, fast, and with a simple 64-bit state, but it has more sophisticated generators available as well |
 | [ab_glyph](https://crates.io/crates/ab_glyph) | great for parsing and rasterizing opentype fonts and generating glyph sets for rendering |
 | [palette](https://crates.io/crates/palette) | provides type-correct color types and conversions (RGB, HSV, LAB, etc.) |
-| [musli](https://crates.io/crates/musli) | fast, generic binary serialization in the vein of serde |
 | [ahash](https://crates.io/crates/ahash) | very fast, non-cryptographically secure hashing algorithm |
