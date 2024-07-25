@@ -111,3 +111,4 @@ Haven't figured out how to categorize this stuff yet, but some of these are extr
 | [strum](https://crates.io/crates/strum) | add lots of reflection to enums (names, count, enumerate over their values, etc.), great to remove boilerplate and prepare enums for in-editor dropdown support |
 | [thiserror](https://crates.io/crates/thiserror) | my favorite library for creating error structs/enums with nice display implementations (reduces lots of boilerplate and can generate from-impls as well, etc.) |
 | [ulid](https://crates.io/crates/ulid) | i like this for guid generation, which uses the [ulid](https://github.com/ulid/spec) specification to generate 128-bit unique IDs that have nice string representations |
+| [bevy_ecs](https://crates.io/crates/bevy_ecs) | A highly ergonomic and fast entity component system with support for parallel scheduling and event propagation |
