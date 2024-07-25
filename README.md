@@ -41,3 +41,4 @@ My curated list of cool/useful crates for game development. Crates often have st
 | [pared](https://crates.io/crates/pared) | projected shared pointers (eg. get a "shared" reference to a field of a struct in an `Rc`) |
 | [strsim](https://crates.io/crates/strsim) | various string similarity implementations (good for editor search fields, etc.) |
 | [unicode_blocks](https://crates.io/crates/unicode-blocks) | a list of all unicode blocks and provides some functions to search across them |
+| [vfs](https://crates.io/crates/vfs) | file system abstractions that allows using different filesystem implementations (eg. in-memory filesystem) |
