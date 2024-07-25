@@ -43,3 +43,4 @@ My curated list of cool/useful crates for game development. Crates often have st
 | [unicode_blocks](https://crates.io/crates/unicode-blocks) | a list of all unicode blocks and provides some functions to search across them |
 | [vfs](https://crates.io/crates/vfs) | file system abstractions that allows using different filesystem implementations (eg. in-memory filesystem) |
 | [zune-inflate](https://crates.io/crates/zune-inflate) | an extremely optimized inflate algorithm supporting whole buffer decompression |
+| [bitflags](https://crates.io/crates/bitflags) | generates flags enums with well-defined semantics and ergonomic end-user APIs |
