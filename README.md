@@ -15,6 +15,7 @@ My curated list of cool/useful crates for game development. Crates often have st
 - [OS \& Filesystem](#os--filesystem)
 - [Strings](#strings)
 - [Random Numbers](#random-numbers)
+- [Collections \& Smart Pointers](#collections--smart-pointers)
 - [Miscellaneous](#miscellaneous)
 
 
@@ -99,6 +100,13 @@ Games need random numbers, and Rust has *many* RNG crates. Here are some I like.
 | [fastrand](https://crates.io/crates/fastrand) | simple, fast random number generator that uses a 64-bit state |
 | [rand_xoshiro](https://crates.io/crates/rand_xoshiro) | very nice random number generators, i specifically like `SplitMix64` for being very simple, fast, and with a simple 64-bit state, but it has more sophisticated generators available as well |
 
+## Collections & Smart Pointers
+
+| Crate | Description |
+| ----- | ----------- |
+| [pared](https://crates.io/crates/pared) | projected shared pointers (eg. get a "shared" reference to a field of a struct in an `Rc`) |
+| [slotmap](https://crates.io/crates/slotmap) | provides 3 containers with persistent unique keys to access stored values (basically a hash-map that generates keys for you and has O(1) lookup time)
+
 ## Miscellaneous
 
 Haven't figured out how to categorize this stuff yet, but some of these are extremely useful.
@@ -107,7 +115,6 @@ Haven't figured out how to categorize this stuff yet, but some of these are extr
 | ----- | ----------- |
 | [ahash](https://crates.io/crates/ahash) | very fast, non-cryptographically secure hashing algorithm |
 | [gilrs](https://crates.io/crates/gilrs) | gamepad input library, really great API, controller layout/bindings/event handling, and haptic support |
-| [pared](https://crates.io/crates/pared) | projected shared pointers (eg. get a "shared" reference to a field of a struct in an `Rc`) |
 | [strum](https://crates.io/crates/strum) | add lots of reflection to enums (names, count, enumerate over their values, etc.), great to remove boilerplate and prepare enums for in-editor dropdown support |
 | [thiserror](https://crates.io/crates/thiserror) | my favorite library for creating error structs/enums with nice display implementations (reduces lots of boilerplate and can generate from-impls as well, etc.) |
 | [ulid](https://crates.io/crates/ulid) | i like this for guid generation, which uses the [ulid](https://github.com/ulid/spec) specification to generate 128-bit unique IDs that have nice string representations |
