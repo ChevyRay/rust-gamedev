@@ -23,6 +23,7 @@ My curated list of cool/useful crates for game development. Crates often have st
 | [winit](https://crates.io/crates/winit) | the de-factor windowing library for rust, quite good compared to what i've used in any other language. feels very much like using SDL |
 | [thiserror](https://crates.io/crates/thiserror) | my favorite library for creating error structs/enums with nice display implementations (reduces lots of boilerplate and can generate from-impls as well, etc.) |
 | [bytemuck](https://crates.io/crates/bytemuck) | library with traits/methods for making your structs readable/writable as byte arrays, useful for uploading them into graphics APIs like wgpu or opengl |
+| [byteorder](https://crates.io/crates/byteorder) | convenience methods for encoding and decoding numbers in either big-endian or little-endian order (useful for binary encoders/decoders) |
 | [memoffset](https://crates.io/crates/memoffset) | nice companion to bytemuck, allows you to get memory offsets of struct fields, useful for setting up vertex attributes or uniform buffers for graphics APIs |
 | [gilrs](https://crates.io/crates/gilrs) | gamepad input library, really great API, controller layout/bindings/event handling, and haptic support |
 | [image](https://crates.io/crates/image) | very full-featured image decoding library with support for lots of common formats |
