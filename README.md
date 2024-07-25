@@ -34,3 +34,4 @@ My curated list of cool/useful crates for game development. Crates often have st
 | [ab_glyph](https://crates.io/crates/ab_glyph) | great for parsing and rasterizing opentype fonts and generating glyph sets for rendering |
 | [palette](https://crates.io/crates/palette) | provides type-correct color types and conversions (RGB, HSV, LAB, etc.) |
 | [ahash](https://crates.io/crates/ahash) | very fast, non-cryptographically secure hashing algorithm |
+| [compact_str](https://crates.io/crates/compact_str) | drop-in replacement for `String` that stores up to 24-byte strings on the stack |
