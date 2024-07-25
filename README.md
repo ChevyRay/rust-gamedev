@@ -1,15 +1,13 @@
-# Rust Gamedev
 My curated list of cool/useful crates for game development. Crates often have strange names that are difficult to remember or do not make it obvious what they do. This repository is where I keep track of crates I've found that may be useful for certain problems or projects.
 
-- [Rust Gamedev](#rust-gamedev)
-  - [Graphics](#graphics)
-  - [Serialization](#serialization)
-  - [Bits \& Bytes](#bits--bytes)
-  - [Math \& Geometry](#math--geometry)
-  - [OS \& Filesystem](#os--filesystem)
-  - [Strings](#strings)
-  - [Random Numbers](#random-numbers)
-  - [Miscellaneous](#miscellaneous)
+- [Graphics](#graphics)
+- [Serialization](#serialization)
+- [Bits \& Bytes](#bits--bytes)
+- [Math \& Geometry](#math--geometry)
+- [OS \& Filesystem](#os--filesystem)
+- [Strings](#strings)
+- [Random Numbers](#random-numbers)
+- [Miscellaneous](#miscellaneous)
 
 
 ## Graphics
