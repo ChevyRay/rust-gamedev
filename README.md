@@ -39,3 +39,4 @@ My curated list of cool/useful crates for game development. Crates often have st
 | [heck](https://crates.io/crates/heck) | provide conversions between different naming cases (eg. `snake_case` to `UpperCamelCase` or `SHOUTY_SNAKE_CASE`) |
 | [kdl](https://kdl.dev/) | a small, clean document language with xml-like semantics |
 | [pared](https://crates.io/crates/pared) | projected shared pointers (eg. get a "shared" reference to a field of a struct in an `Rc`) |
+| [strsim](https://crates.io/crates/strsim) | various string similarity implementations (good for editor search fields, etc.) |
