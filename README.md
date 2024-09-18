@@ -79,6 +79,7 @@ Editors often need to interact with the OS in ways games don't.
 | [arboard](https://crates.io/crates/arboard) | text/image clipboard support, useful for editors/etc. especially because of the image support |
 | [rfd](https://crates.io/crates/rfd) | rust file-dialogs, useful for native save/load/etc. for editors and tooling |
 | [vfs](https://crates.io/crates/vfs) | file system abstractions that allows using different filesystem implementations (eg. in-memory filesystem) |
+| [camino](https://crates.io/crates/camino) | utf8 paths and pathbufs, great for those of us who never deal with non-string paths |
 
 ## Strings
 
