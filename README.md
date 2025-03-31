@@ -114,6 +114,7 @@ Haven't figured out how to categorize this stuff yet, but some of these are extr
 
 | Crate | Description |
 | ----- | ----------- |
+| [bumpalo](https://crates.io/crates/bumpalo) | fast bump allocation arena, great for allocations that exist just for the duration of a game frame |
 | [ahash](https://crates.io/crates/ahash) | very fast, non-cryptographically secure hashing algorithm |
 | [gilrs](https://crates.io/crates/gilrs) | gamepad input library, really great API, controller layout/bindings/event handling, and haptic support |
 | [strum](https://crates.io/crates/strum) | add lots of reflection to enums (names, count, enumerate over their values, etc.), great to remove boilerplate and prepare enums for in-editor dropdown support |
