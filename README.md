@@ -115,7 +115,6 @@ Haven't figured out how to categorize this stuff yet, but some of these are extr
 
 | Crate | Description |
 | ----- | ----------- |
-bindings to the Lua programming language for Rust with a goal of providing a safe (as much as possible), high level, easy to use, practical and flexible API.
 | [mlua](https://crates.io/crates/mlua) | safe, high level, easy to use Lua bindings/embedding, makes creating native methods/etc super fast & error-proof |
 | [bumpalo](https://crates.io/crates/bumpalo) | fast bump allocation arena, great for allocations that exist just for the duration of a game frame |
 | [ahash](https://crates.io/crates/ahash) | very fast, non-cryptographically secure hashing algorithm |
