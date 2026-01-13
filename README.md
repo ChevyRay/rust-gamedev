@@ -76,6 +76,7 @@ Editors often need to interact with the OS in ways games don't.
 
 | Crate | Description |
 | ----- | ----------- |
+| [directories](https://crates.io/crates/directories) | platform-specific standard locations of folders for config, cache & other data on Linux/Windows/macOS |
 | [arboard](https://crates.io/crates/arboard) | text/image clipboard support, useful for editors/etc. especially because of the image support |
 | [rfd](https://crates.io/crates/rfd) | rust file-dialogs, useful for native save/load/etc. for editors and tooling |
 | [vfs](https://crates.io/crates/vfs) | file system abstractions that allows using different filesystem implementations (eg. in-memory filesystem) |
@@ -114,6 +115,8 @@ Haven't figured out how to categorize this stuff yet, but some of these are extr
 
 | Crate | Description |
 | ----- | ----------- |
+bindings to the Lua programming language for Rust with a goal of providing a safe (as much as possible), high level, easy to use, practical and flexible API.
+| [mlua](https://crates.io/crates/mlua) | safe, high level, easy to use Lua bindings/embedding, makes creating native methods/etc super fast & error-proof |
 | [bumpalo](https://crates.io/crates/bumpalo) | fast bump allocation arena, great for allocations that exist just for the duration of a game frame |
 | [ahash](https://crates.io/crates/ahash) | very fast, non-cryptographically secure hashing algorithm |
 | [gilrs](https://crates.io/crates/gilrs) | gamepad input library, really great API, controller layout/bindings/event handling, and haptic support |
